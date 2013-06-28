@@ -1,0 +1,94 @@
+
+#top {
+    position: relative;
+    background-color: #FFFFFF;
+    color: white;
+    padding: 5px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 15px;
+    border-color: #9999FF;
+    border-style: solid;
+    border-width: 2px;
+    height: 100px;
+}
+
+.topTitleLayout {
+    float: left;
+}
+
+.topTitleLogo {
+    float: right;
+    
+}
+
+#bottom {
+    position: relative;
+    background-color: #4444FF;
+    color: #FFFF55;
+    font-size: 13px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.center_content {
+    position: relative;
+    background-color: #F2F2FF;
+    padding: 10px;
+    min-height: 250px;
+    border-radius: 10px;
+}
+
+#top a:link, #top a:visited {
+  color: white;
+  font-weight : bold;
+  text-decoration: none;
+}
+
+#top a:link:hover, #top a:visited:hover  {
+  color: black;
+  font-weight : bold;
+  text-decoration : underline;
+}
+
+.tabBlockLayout {
+    min-height: 180px;
+}
+
+.homeTabBlock {
+    width: 100%;
+}
+
+.bottomMessage2 {
+    float: right;
+    margin-right: 10px;
+}
+
+.imageSpacer {
+    margin-left: 15px;
+}
+
+.bottomSpacer15 {
+    margin-bottom: 15px;
+}
+
+.bottomSpacer25 {
+    margin-bottom: 25px;
+}
+
+.bottomSpacer35 {
+    margin-bottom: 35px;
+}
+
+.bottomSpacer50 {
+    margin-bottom: 50px;
+}
+
+.caption {
+    font-size: 10px;
+    font-style: italic;
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <head>
+        <title>Source Code</title>
+    </head>
+    <body>
+        This and everything before will be ignored
+        <ui:composition>
+
+            <h:panelGroup styleClass="tabBlock">
+                <h2>GitHub Repositories</h2>
+                <p>
+                    A GitHub "Organization" for NTER Com has been set up for programmers.  Eventually all NTER source code will go in repositories on this page.
+                    <p>An Organization on GitHub is a place where all of the programming project code repositories for a group can be located.  See ours at: <a target="_blank" href="https://github.com/NTERCom" >https://github.com/NTERCom</a></p>
+                    <p>To get permission to upload code, Email the administrator and ask to be assigned to the appropriate team: <a target="_blank" href="mailto:rick@nterhost.com?Subject=Administor%20Request%20NTER%20Com">Administrator Mail</a></p>
+                    <p>The NTER Com organization on GitHub has two repositories: </p>
+
+                    <table>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>LMS
+                                        <p>This is for the NTER LMS code (aka Ilias/NWTP).  This is the code that enables course authoring and configuration.</p>
+                                        <p>LMS Repository Link: <a target="_blank" href="https://github.com/NTERCom/LMS">https://github.com/NTERCom/LMS</a></p>
+                                    </li>
+
+                                    <li>Portal
+                                        <p>This is for the LifeRay server setup and Portlets that run under LifeRay.  This generates the screens that the students see when they first log in.</p>
+                                        <p>Portal Repository Link" <a target="_blank" href="https://github.com/NTERCom/Portal">https://github.com/NTERCom/Portal</a></p>
+                                    </li>
+                                </ul>
+
+                            </td>
+                            <td>
+                                <div class="imageSpacer">
+                                    <p class="caption">Click Image to Enlarge<br />Click Outside Image to Shrink</p>
+                                    <p:graphicImage id="img2" url="./resources/images/GitHub Project Page-small.png" />
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                </p>
+            </h:panelGroup>
+            <p:overlayPanel id="imgOverlay2" for="img2" hideEffect="fade" my="left bottom" > 
+                <p:graphicImage id="img2Large" url="./resources/images/GitHub Project Page.png" />
+            </p:overlayPanel>
+        </ui:composition>
+        This and everything after will be ignored
+    </body>
+</html>

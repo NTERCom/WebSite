@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <head>
+        <title>TAACCCT Grants Tab Block</title>
+    </head>
+    <body>
+        <h:form>
+            This and everything before will be ignored
+            <ui:composition>
+                <h2>TAACCCT Grants</h2>
+
+                <h:panelGroup  layout="block">
+                    <p:tabView effect="fade" effectDuration="normal">  
+
+                        <p:tab title="Round 1 Grantees">
+                            <div class="tabBlockLayout">
+                                <ui:include src="../../WEB-INF/tabBlocks/taaccct/taaccctRound1.xhtml" />
+                            </div>
+                        </p:tab>
+
+                        <p:tab title="Round 2 Grantees">  
+                            <div class="tabBlockLayout">
+                                 <ui:include src="../../WEB-INF/tabBlocks/taaccct/taaccctRound2.xhtml" />
+                            </div>
+                        </p:tab>
+
+                        <p:tab title="Round 3 Applicants">  
+                            <div class="tabBlockLayout">
+                                 <ui:include src="../../WEB-INF/tabBlocks/taaccct/taaccctRound3.xhtml" />
+                            </div>
+                        </p:tab> 
+
+                        <p:tab title="Links">  
+                            <div class="tabBlockLayout">
+                            </div>
+                        </p:tab>  
+
+                    </p:tabView>  
+                </h:panelGroup>
+
+            </ui:composition>
+            This and everything after will be ignored
+        </h:form>
+    </body>
+</html>

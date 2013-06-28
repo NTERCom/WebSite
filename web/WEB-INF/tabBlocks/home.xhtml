@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <head>
+        <title>Home Tab Block</title>
+    </head>
+    <body>
+        This and everything before will be ignored
+        <ui:composition>
+
+            <h:panelGroup >
+                <h2>Welcome to NTER Com, the Users Group for the NTER Community!</h2>
+                <p>We are just getting started with this users group, so check here often for news about NTER.</p>
+
+                <ul>
+                    <li><h3>GitHub NTER Repositories Available</h3>
+                        <p>
+                            We have set up a GitHub "Organization" for NTER programmers.  Eventually all NTER source code will go in repositories on that page.
+                            <p>
+                                Click the tab above labeled "NTER for Programmers" for more information.  Code will be uploaded soon.
+                            </p>
+
+                        </p>
+                    </li>
+                    <li><h3>Source Forge NTER Project Now Online</h3>
+                        <p>
+                            Nter Com has set up a SourceForge project for NTER.  The project page (<a target="_blank" href="https://sourceforge.net/projects/nter/">SourceForge NTER Project: https://sourceforge.net/projects/nter/</a>) has buttons at the top to take you to a Wiki, Blog, Discussion Forum, and a bug reporting Ticket system.
+                            <p>
+                                Click the tab above labeled "NTER Com Resources" for more information.
+                            </p>
+
+                        </p>
+                    </li>
+                </ul>
+
+                <h:panelGrid columns="2" styleClass="homeTabBlock" >
+                    <h:panelGroup >
+                        <p><h3>What is NTER?</h3></p>
+                        <p>NTER is an open source, online education system.  It allows you to create classes that incorporate graphics, video, text, and tests that your students can take online with their browser.  All for free.  NTER servers can be connected to a nationwide grid allowing courses to be shared among numerous institutions.</p>
+                        <p>Course authors can create their courseware with NTER's Learning Management System in the industry standard SCORM format (Sharable Content Object Reference Model).</p>
+                        <p>NTER was developed by the U.S. Department of Energy.  The acronym stands for "National Training and Education Resource".</p>
+                        <p>Click the tab above on this page entitled "Links" to see a list of hyperlinks to more information about NTER.</p>
+                    </h:panelGroup>
+                    <h:panelGroup >
+                        <div class="imageSpacer">
+                        <p class="caption">Click Image to Enlarge<br />Click Outside Image to Shrink</p>
+                        <p:graphicImage id="img3" url="./resources/images/techstack-small.gif" />
+                        </div>
+                    </h:panelGroup>
+                </h:panelGrid>
+                <p:overlayPanel id="imgOverlay3" for="img3" hideEffect="fade" my="left bottom" > 
+                    <p:graphicImage id="img3Large" url="./resources/images/techstack.gif" />
+                </p:overlayPanel>
+            </h:panelGroup>
+
+        </ui:composition>
+        This and everything after will be ignored
+    </body>
+</html>

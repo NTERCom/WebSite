@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <head>
+        <title>Support</title>
+    </head>
+    <body>
+        This and everything before will be ignored
+        <ui:composition>
+
+            <h:panelGroup styleClass="tabBlock">
+                <h2>Resources from the NTER Com Users Group</h2>
+                <p>
+                    Nter Com has set up a SourceForge project for NTER.  The project page (<a target="_blank" href="https://sourceforge.net/projects/nter/">SourceForge NTER Project</a>) has buttons at the top to take you to various tools.  The links below will take you directly to the various resources.
+                    <p>We are just getting started, so check these resources often for new NTER resources.</p>
+
+                    <table>
+                        <tr>  
+                            <td>
+                                <ul>
+                                    <li><h3>Wiki</h3>
+                                        The Wiki is where documentation is stored:<br />
+                                        <a target="_blank" href="https://sourceforge.net/p/nter/wiki/Home/">https://sourceforge.net/p/nter/wiki/Home/</a>
+                                    </li>
+
+                                    <li><h3>Discussion Forum</h3>
+                                        The Discussion Forum is where NTER users can discuss issues among themselves related to running NTER, course authoring, and problems:<br />
+                                        <a target="_blank" href="https://sourceforge.net/p/nter/discussion/">https://sourceforge.net/p/nter/discussion/</a>
+                                    </li>
+
+                                    <li><h3>Blog</h3>
+                                        The Blog is where announcements and articles about what's new in the NTER Community will be posted:<br />
+                                        <a target="_blank" href="https://sourceforge.net/p/nter/blog/">https://sourceforge.net/p/nter/blog/</a>
+
+                                    </li>
+
+                                    <li><h3>Tickets</h3>
+                                        The Tickets area is where NTER Users can file bug reports:<br />
+                                        <a target="_blank" href="https://sourceforge.net/p/nter/tickets/">https://sourceforge.net/p/nter/tickets/</a>
+
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                <div class="imageSpacer">
+                                <p class="caption">Click Image to Enlarge<br />Click Outside Image to Shrink</p>
+                                <p:graphicImage id="img1" url="./resources/images/SourceForge Screen Shot-small.png" />
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <p:overlayPanel id="imgOverlay1" for="img1" hideEffect="fade" my="left bottom" > 
+                        <p:graphicImage id="img1Large" url="./resources/images/SourceForge Screen Shot.png" />
+                    </p:overlayPanel>  
+
+                </p>
+            </h:panelGroup>
+
+        </ui:composition>
+        This and everything after will be ignored
+    </body>
+</html>

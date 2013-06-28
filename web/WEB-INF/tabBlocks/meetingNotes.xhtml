@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <head>
+        <title>Home Block</title>
+    </head>
+    <body>
+        This and everything before will be ignored
+        <ui:composition>
+
+            <h:panelGroup styleClass="tabBlock">
+                <h3>Notes for: 6/19/2013</h3>
+                    Several new attendees were at this meeting.  Welcome to all!
+                    <p>
+                        It was decided that meetings should be every two weeks, for the time being.
+                        The next meeting was pushed to July 10th at 11 AM Central time due to the 4th of July holiday.
+                    </p>
+                    <p>
+                        <h3>Meeting Recap and Action Items</h3>
+
+                        <p>The second meeting of the NTER Technical Users Group reviewed the topics from the kickoff meeting on May 29th.</p>
+
+                        <p>
+                            Source Code Respository summaries and discussion.  Three repositories had been reviewed 
+                            for functions and features following the May 29 meeting.  After a discussion of the 
+                            functions and features of GitHub, SourceForge and GoogleCode, it was decided that 
+                            GitHub would most likely be selected as the repository for the NTER code, and 
+                            SourceForge for wiki’s and support forums.  Links to these sites will be posted on the 
+                            NTERcom.org website, which will be used as the hub for the NTER Technical User Group.
+                        </p>
+
+                        <p>
+                            Other discussion points included the need to identify resources for the continued 
+                            development and hosting of the open source community. Items included in this are 
+                            identification of ownership for code issuance, tech support, hosting, etc.  In the 
+                            interim, Rick Fincher will add a Liferay instance for the public-facing aspect of the 
+                            open source site.
+                        </p>
+
+                        <p>
+                            As the group continues to grow, it was noted that there will need to be sub-groups that 
+                            gather to focus on their special interests: programmers, educators, system administrators,
+                            students, with a cross-over group to ensure maximum efficacy across users and developers.
+                        </p>
+
+                        <p>
+                            The need to better understand the various NTER projects currently underway by NTERcom 
+                            member groups will be addressed by uploading a project summary into the NTERcom.org 
+                            website.  Rick Fincher will add the text to the site, which will be supplied by each of 
+                            the Project Managers for the various NTER projects (i.e. Dr. Berryman for IGEN)
+                        </p>
+
+                        <p>
+                            Still to be determined is the date and participants for the government presentation by 
+                            NTER users sometime in July.  
+                        </p>
+                        
+                        <p>Future meetings will take place every two weeks on Wednesdays at 11am CT, and perhaps 
+                            move to monthly once the sub-groups have been developed.
+                        </p>
+
+                    </p>
+                    <p>
+                        Action Items prior to the next meeting:
+                        <ul>
+                            <li>Rick Fincher will setup a code repository on GitHub,and Set up an NTER Project on SourceForge with Wiki, Blog, Trouble Ticket, and Discussion Forum capability.</li>
+                            <li>Rick Fincher will add links to the web site to the GitHub and SourceForge tools.</li>
+                            <li>Project Managers:  Those of you leading a NTER project are to supply a summary description of the focus of your project mission, and current broad status.  Rick will upload your text to the NTERcom.org site.</li>
+                            <li>Wendy Keller will reach out to Sharon Leu regarding participation in the Group.</li>
+                            <li>Dr. Berryman will reach out to Round 2 TAACCT grantees, when appropriate, to join the Group.</li>
+                        </ul>
+                    </p>
+                    <hr />
+                    <br />
+
+                    <h3>Notes for: 5/29/2013</h3>
+                    <P STYLE="margin-bottom: 0in">Thank you all for joining the kickoff
+                        meeting for the NTER Technical Users Group.  The meeting highlighted
+                        the need for a sharing of knowledge and technical information within
+                        the NTER user community, and we are off to a solid start.  Each of
+                        your contributions are valuable to the forward momentum of building
+                        and expanding an open-source community that will create a scalable
+                        and sustainable infrastructure for the NTER platform.  
+                    </P>
+
+                    <P STYLE="margin-bottom: 0in">
+                        Several members volunteered to look into code repositories and report back.  The repos discussed were Google Code, SourceForge, and GitHub.
+
+                    </P>
+                    <P STYLE="margin-bottom: 0in">Other items of note that resulted from
+                        the meeting include the need for:</P>
+                    <UL>
+                        <LI><P STYLE="margin-bottom: 0in">Course copying concerns</P>
+                        </LI><LI><P STYLE="margin-bottom: 0in">Issues with working across various
+                                LMSs'</P>
+                        </LI><LI><P STYLE="margin-bottom: 0in">Video conversion enhancements
+                                needed</P>
+                        </LI><LI><P STYLE="margin-bottom: 0in">Disaster recovery process
+                                enhancements</P>
+                        </LI><LI><P STYLE="margin-bottom: 0in">Shared list of enhancements and
+                                fixes (see below)</P>
+                        </LI><LI><P STYLE="margin-bottom: 0in">Well-documented and public code
+                                formats</P>
+                        </LI><LI><P STYLE="margin-bottom: 0in">Development of best practices
+                                (video how-to's)</P>
+                        </LI><LI><P STYLE="margin-bottom: 0in">Open-source community branding and
+                                marketing</P>
+                        </LI><LI><P STYLE="margin-bottom: 0in">Getting started (with NTER)
+                                materials for instructors</P>
+                        </LI><LI><P STYLE="margin-bottom: 0in">Potential for 2-3 user groups
+                                (technical, policy, other)</P>
+                        </LI><LI><P STYLE="margin-bottom: 0in">Participation in July(?) gov't
+                                agency presentation</P></LI>
+                    </UL>
+                    <P STYLE="margin-bottom: 0in"><BR />
+                    </P>
+                    <P STYLE="margin-bottom: 0in">Below is a list of features that we created specifically for our 
+                        instance of NTER, with the assistance of SRI.  They do not include
+                        the details and bugs that we had to fix and develop for these
+                        features, thus it is a list of features from 30,000 feet. If
+                        that level of detail is needed, the IGEN will try to put it together
+                        or create a demo.</P>
+                    <P STYLE="margin-bottom: 0in"><BR />
+                    </P>
+                    <P STYLE="margin-bottom: 0in; background: #ffffff"><B>Features Added
+                            for IGEN Instance of NTER</B></P>
+                    <P STYLE="margin-bottom: 0in; background: #ffffff">Left Navigation
+                        Activity Bar</P>
+                    <P STYLE="margin-bottom: 0in; background: #ffffff">Sorting Feature</P>
+                    <P STYLE="margin-bottom: 0in; background: #ffffff">Big Blue Button
+                        (live Seminar with recoding feature) Integration</P>
+                    <P STYLE="margin-bottom: 0in; background: #ffffff">Gradebook</P>
+                    <P STYLE="margin-bottom: 0in; background: #ffffff">Announcements
+                        Pool/Tool - Create live announcements, email to students</P>
+                    <P STYLE="margin-bottom: 0in; background: #ffffff">New workflow for
+                        students</P>
+                    <P STYLE="margin-bottom: 0in; background: #ffffff">Ability to limit
+                        developer to see test questions within Test Pools in a course</P>
+                    <P STYLE="margin-bottom: 0in; background: #ffffff">Addition of the
+                        Tiny MCE to all tools and NTER's text/media editor</P>
+                    <P STYLE="margin-bottom: 0in; background: #ffffff">Integration of
+                        HTML 5 Media player</P>
+                    <P STYLE="margin-bottom: 0in; background: #ffffff">Better support for
+                        YouTube Videos</P>
+                    <P STYLE="margin-bottom: 0in; background: #ffffff">Back button</P>
+                    <P STYLE="margin-bottom: 0in; background: #ffffff"></P>
+                    <P STYLE="margin-bottom: 0in; background: #ffffff"><B>Future Features</B></P>
+                    <P STYLE="margin-bottom: 0in; background: #ffffff">Import/Export/Copy
+                        Course Tool</P>
+                    <P STYLE="margin-bottom: 0in; background: #ffffff">Improve the Wiki
+                        Tool</P>
+                    <P STYLE="margin-bottom: 0in; background: #ffffff"></P>
+                    
+                    
+            </h:panelGroup>
+
+        </ui:composition>
+        This and everything after will be ignored
+    </body>
+</html>
